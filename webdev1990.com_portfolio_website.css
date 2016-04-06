@@ -1,0 +1,219 @@
+/* 
+    Theme name: 1st webdesigner HTML5/CSS3 Layout
+    Date: March 2014
+    Description: Basic HTML5/CSS3 layout built on a responsive framework
+    Version: 1.0
+    Author: Christian Vasile
+    Author url: http://christianvasile.com
+*/
+
+body {
+    background-color: #606060;
+    color: #000305;
+    font-size: 87.5%; /* Base font size is 14px */
+    font-family: Arial, 'Lucida Sans Unicode';
+    line-height: 1.5;
+    text-align: left;  
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #006400;
+}
+
+a:hover, a:active {
+   background-color: #006400;
+   color: #FFF;
+}
+.body {
+    margin: 0 auto; /* 0 auto means everything will be centered */   
+    width: 70%;
+    clear: both; /* makes the container elements not float on the left or right */
+}
+
+.mainHeader img {
+    width: 18%;
+    height: auto;
+    float: left;
+    margin: 2% 0%;
+}
+
+
+.row {
+    display: inline-block;
+}
+
+.row li {
+    display: inline;
+}
+
+.mainHeader nav {
+    background-color: 666;
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px; /* used to ensure moz and webkit browsers understand */
+    -webkit-border-radius: 5px; /* used to ensure moz and webkit browsers understand */
+}
+
+.mainHeader nav ul{
+    list-style: none;
+    margin: 0 auto;  
+    width: 100%;
+}
+
+.mainHeader nav ul il {
+    float: left;
+    display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+    color: #FFF;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+}
+
+.mainHeader nav a:hoover, .mainheader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav active a:visited {
+    background-color: #006400;
+    text-shadow: none;
+}
+
+.mainHeader nav ul li a {
+    border-radius: 5px;
+    -moz-border-radius: 5px; /* used to ensure moz and webkit browsers understand */
+    -webkit-border-radius: 5px; /* used to ensure moz and webkit browsers understand */
+}
+
+.mainContent {
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px; /* used to ensure moz and webkit browsers understand */
+    -webkit-border-radius: 5px; /* used to ensure moz and webkit browsers understand */
+    /*overflow: hidden; controls overflow between other side bar stuff, gives it space, sometimes it works or it gives headaches */
+}
+
+.content {
+    width: 70%;
+    float: left;
+}
+
+.topcontent {
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px; /* used to ensure moz and webkit browsers understand */
+    -webkit-border-radius: 5px; /* used to ensure moz and webkit browsers understand */  
+    padding: 3% 5%;
+    margin-top: 2%;
+}
+
+.bottomcontent {
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px; /* used to ensure moz and webkit browsers understand */
+    -webkit-border-radius: 5px; /* used to ensure moz and webkit browsers understand */ 
+    padding: 3% 5%;
+    margin-top: 2%;
+}
+
+.post-info {
+    font-style: italic;
+    color: #999;
+    font-size: 90%;
+}
+
+.top-sidebar {
+    width: 21%;
+    float: left;
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px; /* used to ensure moz and webkit browsers understand */
+    -webkit-border-radius: 5px; /* used to ensure moz and webkit browsers understand */ 
+    margin-left: 3%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding: 2% 3%;
+}
+
+.middle-sidebar{
+    width: 21%;
+    float: left;
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px; /* used to ensure moz and webkit browsers understand */
+    -webkit-border-radius: 5px; /* used to ensure moz and webkit browsers understand */ 
+    margin-left: 3%;
+    margin-bottom: 2%;
+    padding: 2% 3%;
+}
+
+.bottom-sidebar{
+    width: 21%;
+    float: right;
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px; /* used to ensure moz and webkit browsers understand */
+    -webkit-border-radius: 5px; /* used to ensure moz and webkit browsers understand */ 
+    margin-left: 3%;
+    margin-bottom: 2%;
+    padding: 2% 3%;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px) 
+{
+    .body {   
+    width: 90%;
+    font-size: 90%;
+    }
+    
+    .mainHeader img {
+    width: 15%;
+    }
+    
+    .mainHeader nav {
+    height: 160px;
+    }
+
+    .mainHeader nav ul{ 
+        padding-left: 0;
+    }
+
+    .mainHeader nav ul il {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mainHeader nav a:link, .mainHeader nav a:visited {
+    padding: 10px 25px;
+    height: 20px;
+    display: block;
+    }
+
+    .content {
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+    }
+    
+    .post-info {
+        display: none;
+    }
+
+    .topcontent {
+    margin-bottom: 4%;
+    }
+
+    .bottomcontent {
+    margin-top: 3%;
+    }
+    
+    .top-sidebar, .middle-sidebar, .bottom-sidebar {
+    width: 94%;
+    margin: 2% 0 2% 0;
+    padding: 2% 3%;
+    }
+
+}
