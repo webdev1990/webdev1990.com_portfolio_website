@@ -1,0 +1,278 @@
+/*
+***
+Table of Contents
+
+1. Body
+2. Header and Nav
+3. Content
+    3.1 About Me
+    3.2 Projects
+    3.3 Contact
+4. Footer
+***
+*/
+
+
+/* 
+***
+1. Body 
+***
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #696969;
+}
+
+
+/* 
+***
+2. Header and Nav 
+***
+*/
+
+#logo {
+    font-weight: bold;
+    color: #355e3b;
+}
+
+#aboutMeNav {
+    font-weight: bold;
+    color: #00f;
+}
+
+#projectsNav {
+    font-weight: bold;
+    color: #f00;
+}
+
+#contactNav {
+    font-weight: bold;
+    color: #ff8000;
+}
+
+#wordPressNav {
+    font-weight: bold;
+    color: #355e3b;
+}
+
+
+/* 
+***
+3. Content
+***
+*/
+
+.container {
+    background-color: #fff;
+}
+
+
+/* 
+***
+3.1 About Me 
+***
+*/
+
+.list-group-item {
+    text-decoration: underline;
+}
+
+.aboutMeContainer {
+    margin-bottom: 22px;
+}
+
+#aboutMe {
+    color: #00f;
+}
+
+#aboutMeLinks a {
+    font-weight: bold;
+}
+
+#wordPressLink {
+    color: #355e3b;
+    text-decoration: underline;
+}
+
+#skills {
+    color: #800080;
+}
+
+.skills.list-group li a {
+    text-decoration: none;
+}
+
+.skills.list-group li a:link {
+    color: #000;
+}
+
+.skills.list-group li a:visited {
+    color: #000;
+}
+
+.skills.list-group li a:hover {
+    text-decoration: underline;
+}
+
+#tools {
+    color: #800080;
+}
+
+.tools.list-group li a {
+    text-decoration: none;
+}
+
+.tools.list-group li a:link {
+    color: #000;
+}
+
+.tools.list-group li a:visited {
+    color: #000;
+}
+
+.tools.list-group li a:hover {
+    text-decoration: underline;
+}
+
+#books {
+    color: #800080;
+}
+
+.books.list-group li a {
+    text-decoration: none;
+}
+
+.books.list-group li a:link {
+    color: #000;
+}
+
+.books.list-group li a:visited {
+    color: #000;
+}
+
+.books.list-group li a:hover {
+    text-decoration: underline;
+}
+
+#websites {
+    color: #800080;
+}
+
+.websites.list-group li a {
+    text-decoration: none;
+}
+
+.websites.list-group li a:link {
+    color: #000;
+}
+
+.websites.list-group li a:visited {
+    color: #000;
+}
+
+.websites.list-group li a:hover {
+    text-decoration: underline;
+}
+
+.imgOfMe {
+    width: 130px;
+    margin-left: 80px;
+    padding: 0;
+    border-radius: 50%;
+}
+
+
+/* 
+***
+3.2 Projects 
+***
+*/
+
+#projects {
+    color: #f00;
+}
+
+
+/* 
+***
+3.3 Contact 
+***
+*/
+
+#contact {
+    color: #ff8000;
+}
+
+#formContact input {
+    border-top: 2px solid #ff8000;
+    border-right: 2px solid #ff8000;
+    border-left: 2px solid #ff8000;
+}
+
+#formContact textarea {
+    border-top: 2px solid #ff8000;
+    border-right: 2px solid #ff8000;
+    border-bottom: 2px solid #ff8000;
+    border-left: 2px solid #ff8000;
+}
+
+.socialMedia {
+    padding-bottom: 11px;
+}
+
+.btn-group a {
+    color: #000;
+}
+
+#twitterBtn {
+    background-color: #55acee;
+}
+
+#twitterBtn {
+    color: #000;
+}
+
+#githubBtn {
+    background-color: #333;
+}
+
+#githubBtn span,
+#githubBtn {
+    color: #fff;
+}
+
+#linkedinBtn {
+    background-color: #007bb5;
+}
+
+#linkedinBtn {
+    color: #000;
+}
+
+
+/* 
+***
+4. Footer 
+***
+*/
+
+footer {
+    padding: 20px 0 0 20px;
+    text-align: left;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:link {
+    text-decoration: underline;
+    color: #fff;
+}
+
+footer a:visited {
+    color: #fff;
+}
